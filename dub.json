@@ -1,0 +1,10 @@
+{
+	"name": "rista",
+	"description": "A minimal D application.",
+	"copyright": "Copyright © 2016, burner",
+	"authors": ["burner"],
+	"dependencies": {
+		"dstats": "~>1.0.3",
+		"ggplotd": "~>0.9.2"
+	}
+}
