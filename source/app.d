@@ -21,7 +21,7 @@ void main()
 
 	const fit = 6.0;
 
-	foreach(it; 0 .. 500000) {
+	foreach(it; 0 .. 1000000) {
 		double v = rNorm(0, 1, rnd);
 		minV = min(minV, v);
 		maxV = max(maxV, v);
@@ -48,7 +48,7 @@ void main()
     //    ( count, ys ) );
 
     //gg.put( geomPoint( aesPs ) );
-	gg.save( "hist.png" );
+	gg.save( "hist.png" , 2048, 2048);
         
 
     // Generate some noisy data with reducing width
